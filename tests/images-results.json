@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-06T17:25:42.715Z",
+  "checks": [
+    "Imágenes binarias completas a través del Worker y CSP con blob",
+    "Visor grande con imagen original, zoom y desplazamiento dentro del visor",
+    "Descarga conserva nombre, bytes y resolución del adjunto original",
+    "Navegar, teclado, foco y Escape conservan abierto el detalle del ticket",
+    "Reproduce HTML 200: informa función de imágenes ausente con solución concreta",
+    "Credenciales faltantes informa HTTP 503 y nombres de variables del servidor",
+    "Jira HTTP 403 informa permisos y reintentar recupera la imagen",
+    "Contenido inválido no se informa como imagen cargada",
+    "Móvil: imagen completa, controles visibles y zoom sin desbordar el documento",
+    "Sin errores JavaScript con CSP real"
+  ],
+  "errors": [],
+  "simulated": true,
+  "throughCompiledWorker": true
+}

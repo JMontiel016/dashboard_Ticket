@@ -1,0 +1,18 @@
+# Dependencias
+node_modules/
+
+# Build de tv-react: lo genera el workflow de deploy dentro de public/
+public/tv-react.html
+public/tv-react-assets/
+
+.env
+.env.local
+.env.*
+!.env.example
+.dev.vars
+
+.env
+.env.*
+!.env.example
+node_modules/
+dist/

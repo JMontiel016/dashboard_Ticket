@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-06T16:08:01.671Z",
+  "checks": [
+    "WhatsApp sin IA y nombre/RUC con Unicode",
+    "Áreas, panel de tickets y recorrido automático",
+    "Colores del encabezado de análisis por cola 18/10/20",
+    "Ocultar y mostrar conserva la selección y color",
+    "Tres vistas por los tres orígenes, estado y enlaces exactos",
+    "Preferencia de formato tras recargar",
+    "Cuatro indicadores: lista completa, paginación, búsqueda y descripción",
+    "Indicador maneja fallo y permite volver a consultar",
+    "Reenvío y eliminación con un clic, una solicitud y refresco",
+    "Acción rechazada informa error sin reintento automático",
+    "Cola sin lectura no se presenta como cero sano",
+    "TV y diálogo móvil sin desbordamiento",
+    "Dashboard: cuatro vistas oscuras, tablas legibles sin fondo blanco",
+    "Dashboard: detalle de ticket y cambio claro/oscuro",
+    "Dashboard: filtros, búsqueda, reinicio y exportación",
+    "Dashboard: cuatro vistas móviles sin desborde",
+    "Sin errores JavaScript de navegador"
+  ],
+  "errors": [],
+  "simulated": true
+}

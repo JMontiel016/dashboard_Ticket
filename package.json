@@ -1,0 +1,24 @@
+{
+  "name": "dashboard-bepa",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "conectar:jira": "node scripts/conectar-jira.mjs",
+    "test:local-jira": "node tests/local-jira.mjs",
+    "build": "npm --prefix tv-react run build && npm run build:functions",
+    "build:functions": "node scripts/build-worker.mjs",
+    "install:tv": "npm --prefix tv-react ci",
+    "test:qa": "node tests/qa.mjs",
+    "test:actions": "node tests/actions.mjs",
+    "test:data": "node tests/data.mjs",
+    "test": "npm run test:actions && npm run test:data && npm run test:issue-detail && npm run test:worker",
+    "test:issue-detail": "node tests/issue-detail.mjs",
+    "test:images": "node tests/images.mjs",
+    "test:worker": "npm run build:functions && node tests/worker.mjs",
+    "test:layout": "node tests/layout.mjs",
+    "test:compiled": "node tests/compiled.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.63.0"
+  }
+}

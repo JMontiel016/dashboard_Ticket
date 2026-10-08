@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-06T17:25:11.505Z",
+  "checks": [
+    "Carga e indicadores fijos, mayores y sin controles de ocultar",
+    "WhatsApp muestra nueve ingresados hoy y elimina tickets abiertos",
+    "15 servicios completos en tres formatos sin barra interna, en escritorio y móvil",
+    "Encabezado único de análisis ocupa todo el ancho y conserva el color",
+    "Detalle amplio, descripción y comentarios diferenciados, autor e imagen legible",
+    "Detalle inaccesible permite recargar; comentarios parciales e imagen denegada visibles",
+    "Cambiar de ticket descarta la respuesta anterior y el móvil conserva el detalle",
+    "Automático muestra colaboradores con actividad reciente y excluye cuentas inactivas",
+    "Selección manual personalizable, búsqueda y cuentas inactivas deshabilitadas",
+    "Excluir antiguos manualmente y volver a más activos conserva la exclusión",
+    "Personalización oscura en móvil, Escape y foco de vuelta al botón",
+    "Sin errores JavaScript"
+  ],
+  "errors": [],
+  "simulated": true
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-06T17:24:08.844Z",
+  "checks": [
+    "Verifica los bytes de un adjunto original antes de guardar la conexión",
+    "Rechaza credenciales denegadas, HTML 200 y archivos inválidos",
+    "Guarda credenciales privadas sin perder otras opciones locales",
+    "Vite carga las tres APIs locales: búsqueda, detalle e imagen original",
+    "El navegador muestra la imagen completa con las APIs locales y sin el proxy publicado",
+    "El visor local amplía y descarga exactamente el original",
+    "Sin credenciales locales responde JSON 503 con instrucciones, nunca HTML 200"
+  ],
+  "simulated": true,
+  "throughLocalVite": true,
+  "actualPrivateJiraNotTested": true
+}
